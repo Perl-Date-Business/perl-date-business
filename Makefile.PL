@@ -19,9 +19,11 @@ conditions, answer "no" and fire up your favorite text editor....
 
 LegalMumboJumbo
     
-print "Did you read the LICENSE file and agree to its terms and conditions? [y] ";
-my $answer = <STDIN>;
-exit 1 if $answer =~ /^n/i;
+if (NOT $ENV{PERL_MM_USE_DEFAULT}) {
+    print "Did you read the LICENSE file and agree to its terms and conditions? [y] ";
+    my $answer = <STDIN>;
+    exit 1 if $answer =~ /^n/i;
+}
 
 open(YES,">.LICENSE.ACCEPTED") || 
   die "Unable to write .LICENSE.ACCEPTED: $!\n";
