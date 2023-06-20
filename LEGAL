@@ -1,4 +1,19 @@
+__NAME__
+The Morgan Stanley Dean Witter and Co. OpenSource License
 
+__NOTICE__
+Copyright (C) 1999 Morgan Stanley Dean Witter and Co.
+
+__URL__
+https://github.com/bpschuck/perl-date-business
+
+__META_NAME__
+Morgan_Stanley
+
+__META2_NAME__
+Dean_Witter
+
+__LICENSE__
 This License Agreement states the conditions under which a Package may
 be copied, such that the Copyright Holder maintains some semblance of
 artistic control over the development of the package, while giving the
@@ -142,9 +157,4 @@ Definitions:
     EVENT, MORGAN STANLEY'S MAXIMUM LIABILITY SHALL BE LIMITED TO $10
     (TEN DOLLARS).
 
-THE END
-
-$Id: LICENSE,v 1.1 1999/11/23 18:11:55 desimr Exp desimr $
-
-(c) 1999 Morgan Stanley Dean Witter and Co.
 

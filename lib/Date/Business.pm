@@ -378,6 +378,19 @@ Monday (using the diffb function) is one business day. The number
 of business days between Friday and the following Monday (using the
 betweenb function) is zero.
 
+=head1 INSTALLATION
+
+Requires packages Time::Local and POSIX.
+
+  perl Makefile.PL [ LIB=<alternate installation> ]
+  make
+  make test
+  make install
+
+CPAN
+
+  cpan Date::Business
+
 =head1 EXAMPLE
 
 Date::Business works very well for iterating over dates,
