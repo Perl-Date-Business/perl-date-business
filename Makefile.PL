@@ -30,5 +30,10 @@ close(YES) ||
 print "\n";
 
 WriteMakefile(NAME   	=> 'Date::Business',
-	      VERSION 	=> 'Business.pm'); # finds $VERSION
+	      VERSION_FROM 	=> 'Business.pm',
+				PREREQ_PM     => {
+					'Time::Local'   => 0,
+					'POSIX'         => 0,
+				},
+);
 
