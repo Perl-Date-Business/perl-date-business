@@ -19,8 +19,7 @@ conditions, answer "no" and fire up your favorite text editor....
 
 LegalMumboJumbo
     
-print "Did you read the LICENSE file and agree to its terms and conditions? [y] ";
-my $answer = <STDIN>;
+my $answer = prompt("Did you read the LICENSE file and agree to its terms and conditions? [y] ");
 exit 1 if $answer =~ /^n/i;
 
 open(YES,">.LICENSE.ACCEPTED") || 
