@@ -25,7 +25,7 @@ require DynaLoader;
  
 @ISA = qw(Exporter DynaLoader);
 
-$VERSION = '1.2';
+our $VERSION = '1.2.1'; # VERSION
  
 #RCS/CVS Version
 my($RCSVERSION) = do {
